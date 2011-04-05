@@ -1,0 +1,5 @@
+h1. Remakrs
+
+1. Installation of command-t
+- sudo apt-get install vim-nox to get ruby support for vim
+- Compile the commant-t ruby library with system ruby (esp. when RVM is used
