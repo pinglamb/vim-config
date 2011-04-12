@@ -9,6 +9,8 @@ call pathogen#runtime_append_all_bundles()
 let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+nmap <silent> <leader>t :FufFile<CR>
+nmap <silent> <leader>p :NERDTreeFind<CR>
 
 set hidden        " Open a new file using :e, without being forced to write or undo your changes first
 set nowrap        " don't wrap lines
@@ -25,6 +27,7 @@ set smartcase     " ignore case if search pattern is all lowercase,
                   "    case-sensitive otherwise
 set smarttab      " insert tabs on the start of a line according to
                   "    shiftwidth, not tabstop
+set expandtab     " soft tab
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 
