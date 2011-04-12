@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/garyor/Sites/appstack'
-let g:netrw_dirhist_2='/Users/garyor/Sites/rails3/archive'
-let g:netrw_dirhist_3='/Users/garyor/Sites/rails3/archive/app'
-let g:netrw_dirhist_4='/Users/garyor/Sites/rails3/archive/app/models'
-let g:netrw_dirhist_5='/Users/garyor/Sites/rails3/archive/config'
-let g:netrw_dirhist_6='/Users/garyor/Sites/appstack/app/views/cloud_providers'
-let g:netrw_dirhist_7='/Users/garyor/Sites/appstack/app/views/subdomains'
