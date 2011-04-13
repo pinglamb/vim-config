@@ -13,6 +13,9 @@ nmap <silent> <leader>t :FufFile<CR>
 nmap <silent> <leader>p :NERDTreeFind<CR>
 nmap <silent> <leader>m :MRU<CR>
 
+" Save without trailing space
+autocmd BufWritePre * :%s/\s\+$//e
+
 set hidden        " Open a new file using :e, without being forced to write or undo your changes first
 set nowrap        " don't wrap lines
 set tabstop=2     " a tab is four spaces
