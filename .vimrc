@@ -11,6 +11,7 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nmap <silent> <leader>t :FufFile<CR>
 nmap <silent> <leader>p :NERDTreeFind<CR>
+nmap <silent> <leader>m :MRU<CR>
 
 set hidden        " Open a new file using :e, without being forced to write or undo your changes first
 set nowrap        " don't wrap lines
