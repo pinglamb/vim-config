@@ -12,6 +12,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nmap <silent> <leader>t :FufFile<CR>
 nmap <silent> <leader>p :NERDTreeFind<CR>
 nmap <silent> <leader>m :MRU<CR>
+nmap <silent> <leader>st :%s/\t/  /g<CR>
 
 " Save without trailing space
 autocmd BufWritePre * :%s/\s\+$//e
@@ -38,7 +39,7 @@ set incsearch     " show search matches as you type
 set history=1000         " remember more commands and search history
 set undolevels=1000      " use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
-set wildmode=longest,list,full
+set wildmode=longest,list
 set wildmenu
 set title                " change the terminal's title
 set visualbell           " don't beep
