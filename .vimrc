@@ -16,6 +16,8 @@ nmap <silent> <leader>st :%s/\t/  /g<CR>
 
 " Save without trailing space
 autocmd BufWritePre * :%s/\s\+$//e
+" HTML5 Syntax Highlight for erb
+autocmd BufRead,BufNewFile *.erb set filetype=eruby.html
 
 set hidden        " Open a new file using :e, without being forced to write or undo your changes first
 set nowrap        " don't wrap lines
