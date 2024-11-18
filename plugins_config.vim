@@ -102,3 +102,10 @@ let g:terraform_fmt_on_save=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-markdown
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vim_markdown_math = 1
+let g:vim_markdown_folding_disabled = 1
